@@ -130,7 +130,7 @@ sudo make install
 
 # All done. Generate a UUID for this machine; this is used later in results
 # reporting.
-MAAT_INSTANCE_UUID = $(cat /proc/sys/kernel/random/uuid)
+MAAT_INSTANCE_UUID=$(cat /proc/sys/kernel/random/uuid)
 export MAAT_INSTANCE_UUID
 
 # @todo: Wildcard DNS for *.benchmark
