@@ -19,7 +19,7 @@ echo "deb http://packages.blackfire.io/debian any main" | sudo tee /etc/apt/sour
 
 sudo apt-get update -y
 
-sudo apt-get install -y accountsservice adduser \
+sudo apt-get install -y accountsservice adduser apache2 \
   apparmor apt apt-transport-https apt-utils autoconf automake \
   bash bash-completion build-essential bzip2 ca-certificates cmake coreutils \
   default-jre dos2unix dpkg ed eject findutils gcc-4.8 blackfire-agent \
