@@ -24,7 +24,7 @@ sudo apt-get install -y accountsservice adduser apache2 \
   bash bash-completion build-essential bzip2 ca-certificates cmake coreutils \
   default-jre dos2unix dpkg ed eject findutils gcc-4.8 blackfire-agent \
   geoip-database git-flow glances grep hhvm iperf linux-tools-generic-lts-trusty \
-  libmcrypt-dev libmemcached-dev libmysqlclient-dev \
+  libapache2-mod-fastcgi libmcrypt-dev libmemcached-dev libmysqlclient-dev \
   libtool makedev man-db manpages mawk memcached mime-support mlocate \
   module-init-tools mount mountall mtr multiarch-support mysql-common \
   mysql-server ncdu ncurses-base ncurses-bin nginx blackfire-php \
